@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    ECR_REPOSITORY: 081731354418.dkr.ecr.ap-northeast-1.amazonaws.com/handson-repo
+    ECR_REPOSITORY: 081731354418.dkr.ecr.ap-northeast-1.amazonaws.com/handson-adachi-repo
 
 phases:
   pre_build:
