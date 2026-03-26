@@ -1,5 +1,5 @@
 # nginxを使用
-FROM FROM public.ecr.aws/docker/library/nginx:alpine
+FROM public.ecr.aws/docker/library/nginx:alpine
 
 # 作成したHTMLファイルをnginxのデフォルトの公開ディレクトリにコピー
 COPY index.html /usr/share/nginx/html/index.html
